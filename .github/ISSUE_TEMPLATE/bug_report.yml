@@ -1,0 +1,30 @@
+name: Bug report
+description: Something doesn't work as the README says it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: A security problem goes through the security policy instead, never a public issue.
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened, and what you expected
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: The steps, commands or URLs, and any error text, verbatim.
+    validations:
+      required: true
+
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: The project's version, and your browser, OS or runtime and its version.
+    validations:
+      required: true
